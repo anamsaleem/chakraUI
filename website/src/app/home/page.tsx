@@ -4,14 +4,12 @@ import Courses from "@/components/courses";
 import Footer from "@/components/footer";
 import Quarter from "@/components/quarter";
 
-export default function website() {
-  return (
-    <>
-      <Home2 />
-      <Courses />
-      <Quarter />
-      <Team />
-      <Footer />
-    </>
-  );
+
+export default function website(){
+  return(
+      <>
+      <Home2/>
+      <Footer/>
+      </>
+  )
 }
